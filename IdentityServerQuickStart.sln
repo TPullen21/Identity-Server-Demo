@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Client\Client.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCClient", "MVCClient\MVCClient.csproj", "{13CAF40E-CFDC-4516-8B00-8C2FAD4728CF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityServerWithAspNetIdentity", "IdentityServerWithAspNetIdentity\IdentityServerWithAspNetIdentity.csproj", "{0F79A24C-3716-4B66-8535-F644224DA81F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{13CAF40E-CFDC-4516-8B00-8C2FAD4728CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{13CAF40E-CFDC-4516-8B00-8C2FAD4728CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{13CAF40E-CFDC-4516-8B00-8C2FAD4728CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F79A24C-3716-4B66-8535-F644224DA81F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F79A24C-3716-4B66-8535-F644224DA81F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F79A24C-3716-4B66-8535-F644224DA81F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F79A24C-3716-4B66-8535-F644224DA81F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
