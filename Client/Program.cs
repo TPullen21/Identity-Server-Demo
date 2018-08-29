@@ -37,11 +37,12 @@ namespace Client
 
             // request token
             var tokenClient = new TokenClient(disco.TokenEndpoint, "ro.client", "secret");
-            var tokenResponse = await tokenClient.RequestResourceOwnerPasswordAsync("alice", "password", "api1");
+            var tokenResponse = await tokenClient.RequestResourceOwnerPasswordAsync("test@test.com", "Password1*", "api1 profile");
 
             if (tokenResponse.IsError)
             {
                 Console.WriteLine(tokenResponse.Error);
+                Console.ReadLine();
                 return;
             }
 

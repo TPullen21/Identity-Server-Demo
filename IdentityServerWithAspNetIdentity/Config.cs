@@ -49,7 +49,12 @@ namespace IdentityServerWithAspNetIdentity
                     {
                         new Secret("secret".Sha256())
                     },
-                    AllowedScopes = { "api1" }
+                    AllowedScopes =
+                    {
+                        IdentityServerConstants.StandardScopes.OpenId,
+                        IdentityServerConstants.StandardScopes.Profile,
+                        "api1"
+                    }
                 },
                 // OpenID Connect implicit flow client (MVC)
                 new Client
